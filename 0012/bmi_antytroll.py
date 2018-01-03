@@ -1,4 +1,5 @@
 while True:
+    # note: input works correctly in python3. if you enter `a` in python2, you will get `name a not defined`
     weight = input("Give you weight in kg: ")
     try: 
         weight = float(weight)

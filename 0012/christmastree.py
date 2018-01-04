@@ -1,8 +1,8 @@
-
-size = int(input("Give christmas tree size:"))
-z = size - 1
-x = 1
-for i in range(size):
-    print(' ' * z + '+' * x + ' ' * z)
-    x+=2
-    z-=1
+def christmas_tree(size):
+    size = int(input("Give christmas tree size:"))
+    zzz = size - 1
+    xxx = 1
+    for _ in range(size):
+        print(' ' * zzz + '+' * xxx + ' ' * zzz)
+        xxx += 2
+        zzz -= 1

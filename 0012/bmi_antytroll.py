@@ -1,18 +1,19 @@
 while True:
-    # note: input works correctly in python3. if you enter `a` in python2, you will get `name a not defined`
+    # note: input works correctly in python3. if you enter `a` in
+    # python2, you will get `name a not defined`
     weight = input("Give you weight in kg: ")
-    try: 
+    try:
         weight = float(weight)
     except ValueError:
         print("Not a valid float")
-        continue  
+        continue
     height = input("Give your height in m2: ")
-    try: 
+    try:
         height = float(height)
     except ValueError:
         print("Not a valid float")
         continue
-    break  
+    break
 
 bmi = float(weight)/(float(height)**2)
 print("Your bmi is {}".format(bmi))

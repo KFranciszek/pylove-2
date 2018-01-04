@@ -1,6 +1,12 @@
-
-def policz_samogloski(str):
-    char_list = list(str.lower())
+def policz_samogloski(word):
+    '''
+    Napisz funkcję, która policzy wszystkie samogłoski w tekście. Przykład działania
+    >>> policz_samogloski("Ala ma kota")
+    5
+    >>> policz_samogloski("Pies psu niedzwiedziem")
+    9
+    '''
+    char_list = list(word.lower())
     samogloski = ['a', 'e', 'i', 'o', 'u', 'y']
     counter = 0
     for char in char_list:
@@ -8,5 +14,7 @@ def policz_samogloski(str):
             counter += 1
     print(counter)
 
-sentence = input("Wpisz zdanie: ")
-policz_samogloski(sentence)
+
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod()

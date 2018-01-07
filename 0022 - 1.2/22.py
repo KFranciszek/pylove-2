@@ -1,3 +1,8 @@
+# '''
+# 2.2 Zapisz wszystkie osoby wyższe niż 200 cm do pliku hero_200_plus a
+# resztę do pliku hero_short.
+# '''
+
 import os, sys
 
 with open(os.path.join(sys.path[0], 'py1.2'), 'r') as file:

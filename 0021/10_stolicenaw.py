@@ -1,4 +1,3 @@
-from operator import itemgetter
 from countries_list import countries
 
 def capital_city_with_w():

@@ -51,9 +51,9 @@ class Human:
             chess_hours = diff * kg_burn / chess_per_hour
 
             print(
-                "In order to loose {0:.2f}kg, you need to run for {1:.2f} hours,\
-bike for {2:.2f} hours, do hobby for {3:.2f} hours or play chess \
-for {4:.2f}".format(
+                "In order to loose {0:.2f}kg, you need to run for {1:.2f} hours, " +
+                "bike for {2:.2f} hours, do hobby for {3:.2f} hours or play chess " +
+                "for {4:.2f}".format(
                     diff, run_hours, bike_hours, hobby_hours, chess_hours
                     )
             )
@@ -62,6 +62,11 @@ for {4:.2f}".format(
         else:
             print("Hey, you're weight is OK.")
 
+    def to_eat():
+        pass
+
+    def what_to_do():
+        pass
 
 
 

@@ -24,7 +24,7 @@ class Human:
         if bmi < 18:
             diff = NORM_MIN - self.weight
             print("Your weight is {0:.2f}kg below norm.".format(diff))
-        elif bmi >= 18 and bmi <= 25 :
+        elif bmi >= 18 and bmi <= 25:
             print("Your BMI is normal.")
 
 
